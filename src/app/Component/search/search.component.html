@@ -1,0 +1,8 @@
+<div class="entity">
+    <div class="search">
+        <input type="text" [(ngModel)]="searchQuery" placeholder="Username">
+        <button type="submit" class="btn" (click)="search()">Search</button>
+    </div>
+    <app-entity [username]="searchQuery"></app-entity>
+    <app-reops [username]="searchQuery"></app-reops>
+</div>

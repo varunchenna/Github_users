@@ -1,0 +1,41 @@
+.entity{
+    padding: 5px;
+    box-sizing: border-box;
+    background-color:rgba(11, 251, 239, 0.374);
+}
+
+.search{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    border-radius: 0.5rem;
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    background-color: white;
+}
+
+input:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    background-color: rgba(124, 229, 223, 0.774);
+    border: 1px solid rgba(128, 128, 128, 0.216);
+    border-radius: 0.5rem;
+    margin: 10px 0;
+}
+
+button:hover{
+    background-color:  rgba(51, 50, 50, 0.074);
+    cursor: pointer;
+}

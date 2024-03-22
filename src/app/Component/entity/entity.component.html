@@ -1,0 +1,28 @@
+<div class="entity">
+    <button type="submit" (click)="getUser()" >View Profile</button>
+    <div class="main">
+        <div class="left">
+            <img src="{{userData.avatar_url}}" alt="">
+        </div>
+        <div class="right">
+            <div class="box">
+                <p>Name : <span>{{userData.name}}</span></p>
+            </div>
+            <div class="box">
+                <p> Git ID : <span>{{userData.id}}</span></p>
+            </div>
+            <div class="box">
+                <p> Bio : <span>{{userData.bio}}</span></p>
+            </div>
+            <div class="box">
+                <p> Email : <span>{{userData.email}}</span></p>
+            </div>
+            <div class="box">
+                <p> Location : <span>{{userData.location}}</span> </p>
+            </div>
+            <div class="box">
+                <p> Followers : <span>{{userData.followers}}</span></p>
+            </div>
+        </div>
+    </div>
+</div>
